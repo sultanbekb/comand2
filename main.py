@@ -12,7 +12,17 @@ TOKEN = os.getenv("TOKEN")
 bot= Bot(token=TOKEN)
 dp= Dispatcher()
 
+@dp.message(CommandStart())
+async def g(a:Message):
+    await a.answer('salam')
 
+@dp.message(Command('adil'))
+async def g(a:Message):
+    await a.answer('xaw')
+
+@dp.message(Command('jardem'))
+async def g(a:Message):
+    await a.answer('ne jardem kerek')
 
 klaviatura = ReplyKeyboardMarkup(
     keyboard=[
