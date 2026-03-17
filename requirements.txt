@@ -1,0 +1,10 @@
+requests==2.32.3
+numpy==2.1.0
+pandas==2.2.2
+python-dotenv==1.0.1
+django==5.1
+psycopg2-binary==2.9.9
+djangorestframework==3.15.2
+gunicorn==23.0.0
+aiogram==3.10.0
+requests==2.32.3
